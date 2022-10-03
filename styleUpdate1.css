@@ -1,0 +1,84 @@
+    /* the body element */
+    body {
+      background-color: #272727;
+      width: 100%;
+    }
+
+    /* all elements with the class "websiteTitle" */
+    .websiteTitle {
+      margin: 0;
+      font-family: Nexa, Helvetica, sans-serif;
+      color: #f9f2f2;
+      font-size: 50px;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      background-color: #ff591e;
+      border: 10px solid #ff591e;
+    }
+
+    /* all elements with the class "headersInBody" */
+    .headersInBody {
+      font-family: Nexa, Helvetica, sans-serif;
+      color: #25bfff;
+      font-size: 40px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    /* all elements with the class "topHeader" */
+    .topHeader {
+      margin: 0;
+      font-family: Nexa, Helvetica, sans-serif;
+      color: #f9f2f2;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding: 8px;
+      background-color: #25bfff;
+      background-clip: padding-box;
+      border-radius: 15px;
+    }
+
+    /* all elements with the class "topHeaderBox" */
+    .topHeaderBox {
+      border: 23px solid #ff591e;
+      background-color: #ff591e;
+      float: left;
+    }
+
+    /* all elements with the class "moreNormal" */
+    .moreNormal {
+      padding-left: 0px;
+      padding-right: 50px;
+    }
+
+    /* all elements with the class "moreShort" */
+    .moreShort {
+      padding-left: 0px;
+      padding-right: 14px;
+    }
+
+    /* element with id="moreValorant" */
+    #moreValorant {
+      padding-left: 0px;
+      padding-right: 43px;
+    }
+
+    /* all elements with the class "pMain" */
+    .pMain {
+      font-family: Helvetica, Arial, sans-serif;
+      color: #f9f2f2;
+      font-weight: bold;
+      line-height: 1.25;
+    }
+
+    /* all hr elements */
+    hr {
+      height: 10px;
+      background-color: #f9f2f2;
+    }
