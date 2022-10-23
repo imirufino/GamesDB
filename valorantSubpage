@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Inigo Matias Rufino, Cion Jeremiah Banzon">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="revised" content="09-29-2022">
+  <link href="../style.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" href="../images/valorant.ico" type="image/ico">
+  <title>GamesDB - Valorant</title>
+</head>
+
+<body>
+  <div width=100% style="clear: both">
+    <div width=80%>
+      <h1 class="websiteTitle" style="float: left">GamesDB</h1>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="../index.html" style="color: #f9f2f2; text-decoration: none;">HOMEPAGE</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="roblox.html" style="color: #f9f2f2; text-decoration: none;">ROBLOX</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="arcaea.html" style="color: #f9f2f2; text-decoration: none;">ARCAEA</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="minecraft.html" style="color: #f9f2f2; text-decoration: none;">MINECRAFT</a></h2>
+      </div>
+    </div>
+    <div width=20%>
+      <div>
+        <div class="topHeaderBox" id="moreValorant">
+        <h2 class="topHeader"> MORE (COMING SOON!)</h2>
+      </div>
+    </div>
+  </div>
+  <hr style="clear: both">
+
+  <div class="gameHeader">
+    <p>Valorant</p>
+  </div>
+    
+  <div style="clear: both">
+    <div class="topParagraphTable">
+      <p class="pSubpage" style="text-align: center">Valorant is a first-person shooter created by Riot Games. <br> It is commonly described as a mix of Counter Strike: Global Offensive or CS:GO and Overwatch.<br>
+      Prior to creating Valorant, Riot Games are most known for creating the MOBA game League of Legends.<br>Valorant was fully released on June 2, 2020 and it is currently only supported on Windows computers.
+      </p>
+  </div>
+  
+    <table id="tableValorant">
+      <tr>
+
+      <th colspan="2"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="200" height="200"></th>
+      </tr>
+      <tr>
+      <th colspan="2"><h2>Valorant</h2></th>
+      </tr>
+      <tr>
+        <th>Developer</th>
+        <td>Riot Games</td>
+      </tr>
+      <tr>
+        <th>Publisher</th>
+        <td>Riot Games</td>
+      </tr>
+      <tr>
+        <th>Date Released<br>(Beta)</th>
+        <td>April 7, 2020</td>
+      </tr>
+      <tr>
+        <th>Date Released<br>(Full)</th>
+        <td>June 2, 2020</td>
+      </tr>
+      <tr>
+        <th>Platforms</th>
+        <td>Windows</td>
+      </tr>
+      <tr>
+        <th>Modes</th>
+        <td>Multiplayer</td>
+      </tr>
+      <tr>
+        <th>Genres</th>
+        <td>Tactical shooter,<br>first-person shooter,<br>hero shooter</td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
