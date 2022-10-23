@@ -7,37 +7,27 @@
     /* all elements with the class "websiteTitle" */
     .websiteTitle {
       margin: 0;
-      font-family: Nexa, Helvetica, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
       color: #f9f2f2;
       font-size: 50px;
-      padding-left: 80px;
-      padding-right: 80px;
-      padding-top: 6px;
-      padding-bottom: 6px;
+      padding: 6px 80px;
       background-color: #ff591e;
       border: 10px solid #ff591e;
     }
 
     /* all elements with the class "headersInBody" */
     .headersInBody {
-      font-family: Nexa, Helvetica, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
       color: #25bfff;
       font-size: 40px;
-      padding-top: 40px;
-      padding-bottom: 20px;
-      padding-left: 40px;
-      padding-right: 40px;
+      padding: 40px 40px 20px 40px;
     }
 
     /* all elements with the class "topHeader" */
     .topHeader {
       margin: 0;
-      font-family: Nexa, Helvetica, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
       color: #f9f2f2;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 50px;
-      padding-bottom: 50px;
       padding: 8px;
       background-color: #25bfff;
       background-clip: padding-box;
@@ -53,20 +43,17 @@
 
     /* all elements with the class "moreNormal" */
     .moreNormal {
-      padding-left: 0px;
-      padding-right: 50px;
+      padding: 0px 50px 0px 0px;
     }
 
     /* all elements with the class "moreShort" */
     .moreShort {
-      padding-left: 0px;
-      padding-right: 14px;
+      padding: 0px 14px 0px 0px;
     }
 
     /* element with id="moreValorant" */
     #moreValorant {
-      padding-left: 0px;
-      padding-right: 43px;
+      padding: 0px 25px 0px 0px;
     }
 
     /* all elements with the class "pMain" */
@@ -81,4 +68,57 @@
     hr {
       height: 10px;
       background-color: #f9f2f2;
+    }
+
+    /* all table elements*/
+    table {
+      z-index: 2;
+      position: absolute;
+      right: 0%;
+      top: 14.5%;
+      font-family: Helvetica, Arial, sans-serif;
+      border:10px solid #f9f2f2;
+      border-collapse: collapse;
+      color: #f9f2f2;
+      background-color: #25bfff;
+    }
+
+    /* all td & th elements*/
+    td, th {
+      padding: 15px;
+      border: 10px solid #f9f2f2;
+    }
+
+    /* element with id="tableValorant" */
+    #tableValorant {
+      font-family: Helvetica, Arial, sans-serif;
+      border: 10px solid #f9f2f2;
+      border-collapse: collapse;
+      color: #f9f2f2; 
+      background-color: #25bfff;
+    }
+
+    /* all elements with the class "gameHeader" */
+    .gameHeader {
+      z-index: 3;
+      position: absolute;
+      left: 0.56%;
+      top: 14.5%;
+      font-family: Helvetica, Arial, sans-serif;
+      border: 10px solid #f9f2f2;
+      padding: 0px 50px;
+      color: #25bfff;
+      font-weight: bold;
+      background-color: #272727;
+      font-size: 30px;
+    }
+
+      /* all elements with the class "pSubpage" */
+    .pSubpage {
+      font-family: Helvetica, Arial, sans-serif;
+      color: #f9f2f2;
+      font-weight: bold;
+      line-height: 1.25;
+      padding-top: 150px;
+      width: 80%;
     }
