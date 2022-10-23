@@ -43,12 +43,7 @@
 
     /* all elements with the class "moreNormal" */
     .moreNormal {
-      padding: 0px 50px 0px 0px;
-    }
-
-    /* all elements with the class "moreShort" */
-    .moreShort {
-      padding: 0px 14px 0px 0px;
+      padding: 0px 30px 0px 0px;
     }
 
     /* element with id="moreValorant" */
@@ -71,7 +66,24 @@
     }
 
     /* all table elements*/
-    table {
+    #tableHomepage {
+      font-size: 40px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #272727;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 75px;
+    }
+
+        /* all th and td elements*/
+    th, td {
+      padding: 15px;
+      border: 10px solid #f9f2f2;
+    }
+
+    /* all elements with class="tableMain" */
+    .tableMain {
       z-index: 2;
       position: absolute;
       right: 0%;
@@ -80,21 +92,6 @@
       border:10px solid #f9f2f2;
       border-collapse: collapse;
       color: #f9f2f2;
-      background-color: #25bfff;
-    }
-
-    /* all td & th elements*/
-    td, th {
-      padding: 15px;
-      border: 10px solid #f9f2f2;
-    }
-
-    /* element with id="tableValorant" */
-    #tableValorant {
-      font-family: Helvetica, Arial, sans-serif;
-      border: 10px solid #f9f2f2;
-      border-collapse: collapse;
-      color: #f9f2f2; 
       background-color: #25bfff;
     }
 
@@ -119,6 +116,55 @@
       color: #f9f2f2;
       font-weight: bold;
       line-height: 1.25;
-      padding-top: 150px;
       width: 80%;
+      min-height: 730px;
+      padding-top: 100px;
+      
+    }
+
+    .pItem {
+      padding: 30px 0px;
+    }
+
+    footer {
+      border-top: 10px solid #f9f2f2;
+      clear: both;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #25bfff;
+      color: #272727;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      width: 100%
+    }
+
+    .footerItem {
+      padding: 7px;
+      text-shadow: 1px 1px #272727;
+      border: 5px solid #25bfff;
+      border-radius: 15px;
+      border-spacing: 5px;
+      background-color: #ff591e;
+    }
+
+    a {
+      color: #f9f2f2;
+      text-decoration: none;
+    }
+
+    .copyright {
+      color: #f9f2f2;
+      padding: 7px;
+      border-radius: 15px;
+      background-color: #ff591e;
+      text-shadow: 1px 1px #272727;
+      border: 5px solid #25bfff;
     }
