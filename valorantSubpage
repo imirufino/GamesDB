@@ -16,16 +16,16 @@
     <div width=80%>
       <h1 class="websiteTitle" style="float: left">GamesDB</h1>
       <div class="topHeaderBox">
-        <h2 class="topHeader"><a href="../index.html" style="color: #f9f2f2; text-decoration: none;">HOMEPAGE</a></h2>
+        <h2 class="topHeader"><a href="../index.html">HOMEPAGE</a></h2>
       </div>
       <div class="topHeaderBox">
-        <h2 class="topHeader"><a href="roblox.html" style="color: #f9f2f2; text-decoration: none;">ROBLOX</a></h2>
+        <h2 class="topHeader"><a href="roblox.html">ROBLOX</a></h2>
       </div>
       <div class="topHeaderBox">
-        <h2 class="topHeader"><a href="arcaea.html" style="color: #f9f2f2; text-decoration: none;">ARCAEA</a></h2>
+        <h2 class="topHeader"><a href="arcaea.html">ARCAEA</a></h2>
       </div>
       <div class="topHeaderBox">
-        <h2 class="topHeader"><a href="minecraft.html" style="color: #f9f2f2; text-decoration: none;">MINECRAFT</a></h2>
+        <h2 class="topHeader"><a href="minecraft.html">MINECRAFT</a></h2>
       </div>
     </div>
     <div width=20%>
@@ -42,15 +42,18 @@
   </div>
     
   <div style="clear: both">
-    <div class="topParagraphTable">
-      <p class="pSubpage" style="text-align: center">Valorant is a first-person shooter created by Riot Games. <br> It is commonly described as a mix of Counter Strike: Global Offensive or CS:GO and Overwatch.<br>
-      Prior to creating Valorant, Riot Games are most known for creating the MOBA game League of Legends.<br>Valorant was fully released on June 2, 2020 and it is currently only supported on Windows computers.
-      </p>
-  </div>
-  
-    <table id="tableValorant">
+    <div class="pSubpage">
+          <p class="pItem" style="text-align: center">Valorant is a first-person shooter created by Riot Games. <br>
+            It is commonly described as a mix of Counter Strike: Global Offensive or CS:GO and Overwatch.<br>
+      Prior to creating Valorant, Riot Games are most known for creating the MOBA game League of Legends.<br>
+            Valorant was fully released on June 2, 2020 and it is currently only supported on Windows computers.</p>
+          <p class="pItem" style="text-align: center">Valorant has multiple game modes. These game modes are unrated, competitive (also known as ranked),<br> spike rush, deathmatch, escalation, replication, snowball fight and custom game.<br>
+            The main game modes are unrated and competitive.<br>
+            There are many ranked divisions in Valorant. These ranked divisions in order are <br> iron, bronze, silver, gold, platinum, diamond, ascendant, immortal and radiant.<br>
+            All of these ranked divisions are divided into 3 tiers aside from radiant,<br> which only includes the top 500 people from each region at one given time.</p>
+    </div>
+    <table class="tableMain">
       <tr>
-
       <th colspan="2"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="200" height="200"></th>
       </tr>
       <tr>
@@ -86,6 +89,24 @@
       </tr>
     </table>
   </div>
+    <footer>
+      <div style="clear: both" class="footer">
+      <span class="footerItem">
+        <a href="../index.html">HOMEPAGE</a>
+      </span>
+      <span class="footerItem">
+        <a href="roblox.html">ROBLOX</a>
+      </span>
+      <span class="footerItem">
+        <a href="arcaea.html">ARCAEA</a>
+      </span>
+      <span class="footerItem">
+        <a href="minecraft.html">MINECRAFT</a>
+      </span>
+      <span>
+        <p style="display:inline" class="copyright">Copyright &copy  IMI Rufino & CJM Banzon 9-Potassium</p>
+      </span>
+    </div>
+  </footer>
 </body>
-
 </html>
