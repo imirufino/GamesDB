@@ -9,12 +9,15 @@
   <link href="../style.css" rel="stylesheet" type="text/css"/>
   <link rel="icon" href="../images/valorant.ico" type="image/ico">
   <title>GamesDB - Valorant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div width=100% style="clear: both">
     <div width=80%>
-      <h1 class="websiteTitle" style="float: left">GamesDB</h1>
+      <h1 class="websiteTitle">GamesDB</h1>
       <div class="topHeaderBox">
         <h2 class="topHeader"><a href="../index.html">HOMEPAGE</a></h2>
       </div>
@@ -31,33 +34,39 @@
     <div width=20%>
       <div>
         <div class="topHeaderBox" id="moreValorant">
-        <h2 class="topHeader"> MORE (COMING SOON!)</h2>
+        <h2 class="topHeader"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a></h2>
       </div>
     </div>
   </div>
   <hr style="clear: both">
 
-  <div class="gameHeader">
+  <div class="gameHeader" display="inline">
     <p>Valorant</p>
   </div>
     
   <div style="clear: both">
-    <div class="pSubpage">
+    <div class="pSubpage" display="inline">
           <p class="pItem" style="text-align: center">Valorant is a first-person shooter created by Riot Games. <br>
             It is commonly described as a mix of Counter Strike: Global Offensive or CS:GO and Overwatch.<br>
       Prior to creating Valorant, Riot Games are most known for creating the MOBA game League of Legends.<br>
             Valorant was fully released on June 2, 2020 and it is currently only supported on Windows computers.</p>
-          <p class="pItem" style="text-align: center">Valorant has multiple game modes. These game modes are unrated, competitive (also known as ranked),<br> spike rush, deathmatch, escalation, replication, snowball fight and custom game.<br>
+          <p class="pItem" style="text-align: center">Valorant has multiple game modes. These game modes are unrated, competitive<br> (also known as ranked), spike rush, deathmatch, escalation, replication, snowball fight and custom game.<br>
             The main game modes are unrated and competitive.<br>
             There are many ranked divisions in Valorant. These ranked divisions in order are <br> iron, bronze, silver, gold, platinum, diamond, ascendant, immortal and radiant.<br>
             All of these ranked divisions are divided into 3 tiers aside from radiant,<br> which only includes the top 500 people from each region at one given time.</p>
+          <p class="pItem" style="text-align: center">Currently, there are 4 agent roles in Valorant.<br> These roles are duelist, initiator, controller and sentinel.<br> Firstly, duelists are meant to be the ones who go in first and spearhead your team's attack. <br> Duelist players are usually the star players of their team. Secondly, Initiators are supposed to<br> make the job of duelists easier by using their utility, usually to get info or blind the enemies. <br> Thirdly, controllers are supposed to cut off certain areas of the map with smokes to<br> make it easier to enter or harder to get in, depending on which side you are on. Finally,<br> sentinels are masters of defense, who are perfect for anchoring certain parts of the map.</p>
+
+          <p class="pItem" style="text-align: center">With the recent addition of Harbor, there are 20 playable characters in Valorant, which are called agents. <br> For beginners, the best agents to play would probably be Sage or Sova. <br> With Sage, you are meant to heal or ressurect your teammates and keep enemies back.<br> Meanwhile, with Sova, you are meant to get precious info on the enemies. <br> There are also 8 maps that you can play, with Split not being available for play in ranked or unrated. <br> Each map has its own unique feature. Examples of this include<br> Bind having teleporters and Haven having 3 bombsites instead of the usual 2.</p>
+          <p class="pItem" style="text-align: center">To download Valorant, you must go to <a href="https://playvalorant.com/en-us/download/" style="text-decoration:underline">This website</a> and press the download button.<br> The game will then download and all you will need to do is open the client and you are ready to go!<br> When you start playing, it is important to pick one agent that you will pick all the time.<br> However, it is also important to have a secondary agent as well in case your teammate<br> picks your first choice before you can. As I said above, the best agents to start with are Sage and Sova.</p>
+          <p class="pItem" style="text-align: center">When playing Valorant, there are 3 things you want to focus on. These 3 things are aim, gamesense and mentality.<br> Firstly, aim is important because, no matter how smart your outplays are, at the end of the day, you still need to hit your shots.<br> You can practice your aim in external aim trainers like Aim Lab or you can pratice within Valorant itself,<br> either by queueing deathmatch or in the practice range. Secondly, gamesense is what allows you to put yourself<br> in good positions to shine and be more consistent. It is improved over time just by playing. However, it can be improved<br> faster by recording your own gameplay and learning from your mistakes. It is also good to consciously think<br> why you decided to do one thing over another thing while playing as well. Lastly, mentality is also important. It is a huge skill<br> to think positive so you won't rage quit right away. You can have amazing aim and gamesense, but if you have a bad<br> mentality, it will not at all be easy to improve in terms of rank.</p>
     </div>
-    <table class="tableMain">
+    </div>
+    <table class="tableMain" display="inline">
       <tr>
       <th colspan="2"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="200" height="200"></th>
       </tr>
       <tr>
-      <th colspan="2"><h2>Valorant</h2></th>
+      <th colspan="2"><h1>Valorant</h1></th>
       </tr>
       <tr>
         <th>Developer</th>
@@ -85,10 +94,22 @@
       </tr>
       <tr>
         <th>Genres</th>
-        <td>Tactical shooter,<br>first-person shooter,<br>hero shooter</td>
+        <td>Tactical shooter<br>First-person shooter<br>Hero shooter</td>
       </tr>
     </table>
   </div>
+    <h1 style="text-align: center" class="headersInBody">More Games With Webpages:</h1>
+    <table class="tableHomepage">
+      <tr>
+        <td style="border:0px; padding:0px 0px 5px;"><a href="roblox.html"><img src="../imagesOnWebpage/roblox.png" alt="Roblox logo" width="100px" height="100px"></a></td>
+        <td style="border:0px; padding:0px 0px 5px;"><a href="arcaea.html"><img src="../imagesOnWebpage/arcaea.png" alt="Arcaea logo" width="100px" height="100px"></a></td>
+        <td style="border:0px; padding:0px 0px 5px;"><a href="minecraft.html"><img src="../imagesOnWebpage/minecraft.png" alt="Minecraft logo" width="120px" height="120px"></a></td>
+      </tr>
+      <tr>
+        <td colspan="3" class="bottomButton" style="border:0px; padding:20px 100px;"><a href="../index.html" target="_blank">Back To Homepage</a></td>
+      </tr>
+    </table>
+    </div>
     <footer>
       <div style="clear: both" class="footer">
       <span class="footerItem">
@@ -102,6 +123,9 @@
       </span>
       <span class="footerItem">
         <a href="minecraft.html">MINECRAFT</a>
+      </span>
+      <span class="footerItem">
+        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a>
       </span>
       <span>
         <p style="display:inline" class="copyright">Copyright &copy  IMI Rufino & CJM Banzon 9-Potassium</p>
