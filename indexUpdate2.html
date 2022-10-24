@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="images/DB.ico" type="image/ico">
   <title>GamesDB - Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
   <style>
     
   </style>
@@ -33,8 +36,8 @@
       </div>
     </div>
     <div width=20%>
-      <div class="topHeaderBox moreNormal">
-        <h2 class="topHeader"> MORE (COMING SOON!)</h2>
+      <div class="topHeaderBox" id="moreHomepage">
+        <h2 class="topHeader"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a></h2>
       </div>
     </div>
   </div>
@@ -47,15 +50,15 @@
       which game to play next! <br> GamesDB currently supports Valorant, Roblox, Arcaea and Minecraft. </p>
   </div>
     <h1 style="text-align: center" class="headersInBody">Games With Webpages:</h1>
-      <table id="tableHomepage">
+      <table class="tableHomepage">
         <tr>
-          <td style="border:0px; padding:0px;"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="100" height="100"></td>
-          <td style="border:0px; padding:0px;"><img src="../imagesOnWebpage/roblox.png" alt="Roblox logo" width="140" height="140"></td>
-          <td style="border:0px; padding:0px;"><img src="../imagesOnWebpage/arcaea.png" alt="Arcaea logo" width="100" height="100"></td>
-          <td style="border:0px; padding:0px;"><img src="/imagesOnWebpage/minecraft.png" alt="Minecraft logo" width="125" height="125"></td>
+          <td style="border:0px; padding:0px;"><a href="subpages/valorant.html"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="100px" height="100px"></a></td>
+          <td style="border:0px; padding:0px;"><a href="subpages/roblox.html"><img src="../imagesOnWebpage/roblox.png" alt="Roblox logo" width="100px" height="100px"></a></td>
+          <td style="border:0px; padding:0px;"><a href="subpages/arcaea.html"><img src="../imagesOnWebpage/arcaea.png" alt="Arcaea logo" width="100px" height="100px"></a></td>
+          <td style="border:0px; padding:0px;"><a href="subpages/minecraft.html"><img src="/imagesOnWebpage/minecraft.png" alt="Minecraft logo" width="120px" height="120px"></a></td>
         </tr>
         <tr>
-          <td colspan="4" style="border:0px; padding:20px 50px; background-color:#25bfff; border-radius:15px">With More Coming Soon!</td>
+          <td colspan="4" class="bottomButton" style="border:0px; padding:20px 50px;"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">With More Coming Soon!</a></td>
         </tr>
       </table>
     <footer>
@@ -71,6 +74,9 @@
       </span>
       <span class="footerItem">
         <a href="subpages/minecraft.html">MINECRAFT</a>
+      </span>
+      <span class="footerItem">
+        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a>
       </span>
       <span>
         <p style="display:inline" class="copyright">Copyright &copy  IMI Rufino & CJM Banzon 9-Potassium</p>
