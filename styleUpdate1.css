@@ -4,59 +4,76 @@
       width: 100%;
     }
 
-    /* all elements with the class "websiteTitle" */
+    /* all elements with the class="websiteTitle" */
     .websiteTitle {
       margin: 0;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       color: #f9f2f2;
       font-size: 50px;
-      padding: 6px 80px;
+      padding: 6px 80px 5px;
       background-color: #ff591e;
       border: 10px solid #ff591e;
+      letter-spacing: 1px;
+      float: left;
     }
 
-    /* all elements with the class "headersInBody" */
+    /* all elements with the class="headersInBody" */
     .headersInBody {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       color: #25bfff;
       font-size: 40px;
-      padding: 40px 40px 20px 40px;
+      padding: 40px 40px 0px 40px;
+      letter-spacing: 1px;
     }
 
-    /* all elements with the class "topHeader" */
+    /* all elements with the class="topHeader" */
     .topHeader {
       margin: 0;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       color: #f9f2f2;
       padding: 8px;
       background-color: #25bfff;
       background-clip: padding-box;
       border-radius: 15px;
+      letter-spacing: 1px;
+      text-shadow: 1.5px 1.5px #272727;
     }
 
-    /* all elements with the class "topHeaderBox" */
+    /* all elements with the class="topHeaderBox" */
     .topHeaderBox {
       border: 23px solid #ff591e;
       background-color: #ff591e;
       float: left;
     }
 
-    /* all elements with the class "moreNormal" */
-    .moreNormal {
-      padding: 0px 30px 0px 0px;
+    /* element with the id="moreHomepage" */
+    #moreHomepage {
+      padding: 0px 45px 0px 0px;
     }
 
     /* element with id="moreValorant" */
     #moreValorant {
-      padding: 0px 25px 0px 0px;
+      padding: 0px 40px 0px 0px;
     }
 
-    /* all elements with the class "pMain" */
+    /* element with id="moreMinecraft" */
+    #moreMinecraft {
+      padding: 0px 52px 0px 0px;
+    }
+
+    /* all elements with the class="moreShort" */
+    .moreShort {
+      padding: 0px 7px 0px 0px;
+    }
+
+    /* all elements with the class="pMain" */
     .pMain {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       color: #f9f2f2;
       font-weight: bold;
       line-height: 1.25;
+      letter-spacing: 1px;
+      padding-bottom: 20px;
     }
 
     /* all hr elements */
@@ -65,18 +82,26 @@
       background-color: #f9f2f2;
     }
 
-    /* all table elements*/
-    #tableHomepage {
+    //* all elements with the class="tableHomepage" */
+    .tableHomepage {
       font-size: 40px;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       font-weight: bold;
       color: #272727;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 75px;
+      letter-spacing: 1px;
     }
 
-        /* all th and td elements*/
+    /* all img elements inside a td element */
+    td img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* all th and td elements*/
     th, td {
       padding: 15px;
       border: 10px solid #f9f2f2;
@@ -88,48 +113,52 @@
       position: absolute;
       right: 0%;
       top: 14.5%;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       border:10px solid #f9f2f2;
       border-collapse: collapse;
       color: #f9f2f2;
       background-color: #25bfff;
+      letter-spacing: 1px;
     }
 
-    /* all elements with the class "gameHeader" */
+    /* all elements with the class="gameHeader" */
     .gameHeader {
       z-index: 3;
       position: absolute;
       left: 0.56%;
       top: 14.5%;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       border: 10px solid #f9f2f2;
       padding: 0px 50px;
       color: #25bfff;
       font-weight: bold;
       background-color: #272727;
       font-size: 30px;
+      letter-spacing: 1px;
     }
 
-      /* all elements with the class "pSubpage" */
+    /* all elements with the class="pSubpage" */
     .pSubpage {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       color: #f9f2f2;
       font-weight: bold;
       line-height: 1.25;
       width: 80%;
-      min-height: 730px;
+      min-height: 742px;
       padding-top: 100px;
-      
+      letter-spacing: 1px;
     }
 
+    /* all elements with the class="pItem" */
     .pItem {
       padding: 30px 0px;
     }
 
+    /* all footer elements */
     footer {
       border-top: 10px solid #f9f2f2;
       clear: both;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Exo 2', Arial, sans-serif;
       font-weight: bold;
       position: relative;
       left: 0;
@@ -139,13 +168,16 @@
       color: #272727;
       text-align: center;
       padding: 20px;
+      letter-spacing: 1px;
     }
 
+    /* all elements with the class="footer" */
     .footer {
       text-align: center;
-      width: 100%
+      width: 100%;
     }
 
+    /* all elements with the class="footerItem" */
     .footerItem {
       padding: 7px;
       text-shadow: 1px 1px #272727;
@@ -155,11 +187,13 @@
       background-color: #ff591e;
     }
 
+    /* all a elements" */
     a {
       color: #f9f2f2;
       text-decoration: none;
     }
 
+    /* all elements with the class="copyright" */
     .copyright {
       color: #f9f2f2;
       padding: 7px;
@@ -167,4 +201,11 @@
       background-color: #ff591e;
       text-shadow: 1px 1px #272727;
       border: 5px solid #25bfff;
+    }
+
+    /* all elements with the class="bottomButton" */
+    .bottomButton {
+      background-color: #25bfff;
+      border-radius:15px;
+      text-shadow: 3px 3px #272727;
     }
