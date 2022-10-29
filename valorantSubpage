@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <!--For the header-->
   <div width=100% style="clear: both">
     <div width=80%>
       <h1 class="websiteTitle">GamesDB</h1>
@@ -38,12 +39,15 @@
       </div>
     </div>
   </div>
+  <!--Line that separates the header from the body-->
   <hr style="clear: both">
 
+  <!--Makes it clear which game's webpage you are on (top left below header)-->
   <div class="gameHeader" display="inline">
     <p>Valorant</p>
   </div>
-    
+
+  <!--Paragraphs about game-->
   <div style="clear: both">
     <div class="pSubpage" display="inline">
           <p class="pItem" style="text-align: center">
@@ -81,6 +85,7 @@
         <p class="pItem" style="text-align: center">
           <font class="mainTopics"> TIPS & TRICKS </font> <br>
           When playing Valorant, there are 3 things you want to focus on. These 3 things are aim, gamesense and mentality.<br> Firstly, aim is important because, no matter how smart your outplays are, at the end of the day, you still need to hit your shots.<br> You can practice your aim in external aim trainers like Aim Lab or you can pratice within Valorant itself,<br> either by queueing deathmatch or in the practice range. Secondly, gamesense is what allows you to put yourself<br> in good positions to shine and be more consistent. It is improved over time just by playing. However, it can be improved<br> faster by recording your own gameplay and learning from your mistakes. It is also good to consciously think<br> why you decided to do one thing over another thing while playing as well. Lastly, mentality is also important. It is a huge skill<br> to think positive so you won't rage quit right away. You can have amazing aim and gamesense, but if you have a bad<br> mentality, it will not at all be easy to improve in terms of rank.</p>
+        <!--Table showing photos related to the game-->
         <table class="tableValorant" style="text-align: center">
           <caption>
             <font class="mainTopics"> PHOTOS </font>
@@ -101,7 +106,8 @@
           </tr>
         </table>
     </div>
-    </div>
+  </div>
+    <!--Table with important information about game (on right side)-->
     <table class="tableMain" display="inline">
       <tr>
       <th colspan="2"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="200" height="200"></th>
@@ -139,7 +145,9 @@
       </tr>
     </table>
   </div>
+    <!--More games with webpages header-->
     <h1 style="text-align: center" class="headersInBody">More Games With Webpages:</h1>
+    <!--Table that holds app icons and links in it-->
     <table class="tableHomepage">
       <tr>
         <td style="border:0px; padding:0px 0px 5px;"><a href="roblox.html"><img src="../imagesOnWebpage/roblox.png" alt="Roblox logo" width="100px" height="100px"></a></td>
@@ -151,6 +159,7 @@
       </tr>
     </table>
     </div>
+    <!--For the footer-->
     <footer>
       <div style="clear: both" class="footer">
       <span class="footerItem">
