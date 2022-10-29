@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Inigo Matias Rufino, Cion Jeremiah Banzon">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="revised" content="09-29-2022">
+  <link href="../style.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" href="../images/arcaea.ico" type="image/ico">
+  <title>GamesDB - Arcaea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div width=100% style="clear: both">
+    <div width=80%>
+      <h1 class="websiteTitle">GamesDB</h1>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="../index.html">HOMEPAGE</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="valorant.html">VALORANT</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="roblox.html">ROBLOX</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="minecraft.html">MINECRAFT</a></h2>
+      </div>
+    </div>
+    <div width=20%>
+      <div>
+        <div class="topHeaderBox moreShort">
+        <h2 class="topHeader"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a></h2>
+      </div>
+    </div>
+  </div>
+  <hr style="clear: both">
+
+  <div class="gameHeader">
+    <p>Arcaea</p>
+  </div>
+    
+  <div style="clear: both">
+    <div class="pSubpage">
+          <p class="pItem" style="text-align: center">
+            <font class="mainTopics"> BACKGROUND INFORMATION </font> <br>
+            Arcaea is a mobile rhythm game created by Lowiro. <br>
+            Rhythm games are games that challenges a player's sense of rhythm <br>
+            by making them tap notes to the beat according to a judgement line. <br>
+            However, unlike other rhythm games, this game is 3-dimensional, <br>
+            which makes for more difficult and challenging gameplay. <br>
+            Currently, Arcaea is free to play, with some content locked behind a paywall. <br>
+            Arcaea was released on March 9, 2017 on IOS and Android, and May 18, 2021 for Nintendo Switch.</p>
+      
+          <p class="pItem" style="text-align: center">
+            <font class="mainTopics"> DIFFICULTIES, PERFORMANCE AND JUDGEMENT </font> <br>
+            In the game, there are currently 4 difficulties, with one of them <br>
+            requiring special methods to be unlocked. These difficulties are <font style="color: cyan">PAST</font>, <font style="color:lime">PRESENT</font>, <font style="color: purple">FUTURE</font>, and <font style="color:red">BEYOND</font>, <br> 
+            each increasing in difficulty respectively. Your score determines your grade, which is determined by your performance. <br> 
+            Scores are determined by the time you hit the notes when they reach the judgement line. <br> 
+            For every note, you would get max points if you get a <font class="fontGradient1">◇PURE◇</font>, half points if you get a <font class="fontGradient2">◇FAR◇</font>, and no points if you get a <font class="fontGradient3">◇LOST◇</font>. <br> 
+            Below are the score ranges and the grades you receive within that score range. </p>
+    <table id="tableArcaea">
+      <tr>
+        <th>Grade</th>
+        <th>Score Range</th>
+      </tr>
+      <tr>
+        <td>EX+</td>
+        <td>9,900,000+</td>
+      </tr>
+      <tr>
+        <td>EX</td>
+        <td>9,800,000 - 9,899,999</td>
+      </tr>
+      <tr>
+        <td>AA</td>
+        <td>9,500,000 - 9,799,999</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>9,200,000 - 9,499,999</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>8,900,000 - 9,199,999</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>8,600,000 - 8,899,999</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>0 - 8,599,999</td>
+      </tr>
+    </table>
+          <p class="pItem" style="text-align: center">
+            <font class="mainTopics"> PARTNERS & RECOLLECTION GAUGES </font> <br>
+            Currently, there are at least 50 partners in Arcaea (with more to come!), each having <br>
+            a different type of recollection gauge.  Recollection Gauges are the bars you see on the left side of the screen when you <br> 
+            play a song. There are partners with different RGs that make gameplay by means of increasing the recollection rate <br> 
+            or reducing the damages of LOSTS (like Hikari or Winter Eto and Luna), or partners that make gameplay harder <br> 
+            by means of making your recollection rate reduce significantly (like Zero Hikari, Tempest Tairitsu, or Fatalis Hikari). <br>
+            The goal for partners with <font style="color: lime">EASY</font> or <font style="color: yellow">NORMAL</font> recollection gauges is to maintain your recollection rates equal or above 70. <br> 
+            On the other hand, the goal for partners with <font style="color: red">HARD</font> recollection gauges is to maintain your recollection rates above 0.
+            
+          <p class="pItem" style="text-align: center">
+          <font class="mainTopics"> TYPES OF NOTES </font> <br>
+          Since this game is 3-dimensional, there are different notes other than what you normally expect in rhythm games. <br> 
+            Floor notes appear on the floor and you must tap to hit them when it reaches the bottom judgement line to not get a LOST. <br> 
+            Long notes are the same as floor notes, except you must hold them when it reaches the bottom judgement line and release when it ends. <br> 
+            Sky notes are the same as floor notes, except they can be found anywhere within the top judgement line and the bottom judgement line. <br> 
+            You must tap to hit  when it reaches your playing area. <br> 
+            Arc notes are the same as long notes, except they can move up and down, and also left and right. <br> 
+            <font style="color: cyan"> Blue arcs </font>must be hit with your left hand and <font style="color: magenta"> pink arcs </font> must be hit with your right hand. <br> 
+            Traces have no contribution on gameplay, they are just there for decoration. <br> 
+            Seen below are the 5 types of notes that can be seen in a chart in Arcaea. </p>
+          <table id="tableArcaea">  
+            <tr>
+              <th>Floor Note</th>
+              <th>Long Note</th>
+              <th>Sky Note</th>
+              <th>Arc Note</th>
+              <th>Trace</th>
+            </tr>
+            <tr>
+              <td><img src="../imagesOnWebpage/floornote.png" alt="Floor note" width="75px" height="75px"></td>
+              <td><img src="../imagesOnWebpage/longnote.png" alt="Long note" width="75px" height="75px"></td>
+              <td><img src="../imagesOnWebpage/skynote.png" alt="Sky note" width="75px" height="75px"></td>
+              <td><img src="../imagesOnWebpage/arcnote.png" alt="Arc note" width="75px" height="125px"></td>
+              <td><img src="../imagesOnWebpage/trace.png" alt="Trace" width="75px" height="75px"></td>
+            </tr>
+          </table>
+          <p class="pItem" style="text-align: center">
+          <font class="mainTopics"> HOW TO UNLOCK </font> <br>
+          There are a lot of songs that require very specific steps to unlock. Here are links to tutorials on how to unlock these. <br>
+          <u><a href="https://youtu.be/7y0ns1bGrYI" target="_blank"> Grievous Lady </a> <br>
+          <a href="https://youtu.be/jlT_5_SYw8s" target="_blank"> Fracture Ray </a> <br>
+          <a href="https://youtu.be/1qYij3_KabU" target="_blank"> Tempestissimo </a> <br>
+          <a href="https://youtu.be/jWm1xqO9qdU" target="_blank"> Every Song in Final Verdict </a> <br>
+          <a href="https://youtu.be/8V6dSp1qkNM" target="_blank"> Every Song in Silent Answer </a> </u><br>
+          To unlock songs with a difficulty of Beyond, you need a potential of at least 9.00 and you will need to go to World Mode to unlock them. </p>
+
+          <p class="pItem" style="text-align: center">
+          <font class="mainTopics"> TIPS & TRICKS </font> <br>
+          It is MASSIVELY encouraged for you to play the Beginner and Advanced Tutorials first before diving in into the game, <br> 
+          because this game has a concept that is way more different than any other rhythm game. <br>
+          It is also important to fix your SETTINGS first (found in the top section of Arcaea's Music Play) <br>
+          according to your liking, like the offset, or the notespeed (scrollspeed). This game is mainly compromised of <br>
+          accuracy, precision, timing, speed, and readability. All of these would develop as you progress further or play more into the game. <br>
+          To improve readability, I would recommend getting an app called <u><a href="https://apps.apple.com/us/app/sound-game-training/id1088874473" target="_blank">Sound Game Training</a></u> (currently only for IOS at the moment). <br> 
+          Simply find a chart from YouTube and you can practice it according to how you like it! <br>
+          Another thing I can suggest is finding hand cameras of people who have managed to Max PM charts if you are confused how to do some gameplay. <br>
+          You also need good dexterity for this game because there are certain patterns like crossing your hands just to hit notes. <br> </p>
+
+          <p class="pItem" style="text-align: center">
+          <font class="mainTopics"> FUN FACTS </font> <br>
+          <ul>
+          <li>This game has collaborated with a lot of other rhythm games! Some of these include maimai, WACCA, Ongeki, and CHUNITHM.</li>
+          <li>This game also hosted 2 song-making contests, with 1 of them ongoing right now!</li>
+          <li>Currently, there are 9 known charters who have charted all of the songs in Arcaea. Some notable ones are Toaster, Nitro, and Exschwashion.</li>
+          <li>As of writing this, there are currently 289 songs in Arcaea! (+2 if including Last | Eternity and Last | Moment)</li>
+          <li>There is a chart called "dropdead", where the <font style="color: lime">Present</font>(9.5) difficulty has a higher difficulty than the <font style="color: purple">Future</font>(9.1) difficulty!</li>
+          <li>The highest difficulty at the moment is <font style="color: red">Beyond 12</font>, with the song being Testify!</li>
+          <li>There are also April Fools Charts (celebrated on April 1st of every year), where the new charts during that day break some of Arcaea's normal mechanics, like out-of-bound notes!</li>
+          <li>Similarly, the <font style="color: red">Beyond</font> difficulties break some of Arcaea's normal mechanics, like extended playing field, and the increasing of 4 lanes of gameplay to 6! (this can exclusively be found in the Final Verdict pack)</li>
+          <li>You can add Hikari and Tairitsu as friends with the Friend IDs of 000 000 001 and 000 000 002 respectively!</li>
+          <li>Arcaea can be played with different handstyles, like thumb gameplay, index gameplay, or multifinger gameplay!</li>
+          </ul></p>
+    </div>
+    <table class="tableMain">
+      <tr>
+      <th colspan="2"><img src="../imagesOnWebpage/arcaea.png" alt="Arcaea logo" width="200" height="200"></th>
+      </tr>
+      <tr>
+      <th colspan="2"><h2>Arcaea</h2></th>
+      </tr>
+      <tr>
+        <th>Developer</th>
+        <td>Lowiro</td>
+      </tr>
+      <tr>
+        <th>Publisher</th>
+        <td>Lowiro</td>
+      </tr>
+      <tr>
+        <th>Date Released</th>
+        <td><b>March 9, 2017</b><br>(IOS, Android)
+        <br><b>May 18, 2021</b><br> (Nintendo Switch)</td>
+      </tr>
+      <tr>
+        <th>Platforms</th>
+        <td>Android<br>IOS<br>Nintendo Switch</td>
+      </tr>
+      <tr>
+        <th>Modes</th>
+        <td>Singleplayer<br>Multiplayer</td>
+      </tr>
+      <tr>
+        <th>Genres</th>
+        <td>Rhythm</td>
+      </tr>
+    </table>
+  </div>
+    <h1 style="text-align: center" class="headersInBody">More Games With Webpages:</h1>
+    <table class="tableHomepage">
+      <tr>
+        <td style="border:0px; padding:0px 0px 5px;"><a href="valorant.html"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="100px" height="100px"></a></td>
+        <td style="border:0px; padding:0px 0px 5px;"><a href="roblox.html"><img src="../imagesOnWebpage/roblox.png" alt="Roblox logo" width="100px" height="100px"></a></td>
+        <td style="border:0px; padding:0px 0px 5px;"><a href="minecraft.html"><img src="../imagesOnWebpage/minecraft.png" alt="Minecraft logo" width="120px" height="120px"></a></td>
+      </tr>
+      <tr>
+        <td colspan="3" class="bottomButton" style="border:0px; padding:20px 100px;"><a href="../index.html" target="_blank">Back To Homepage</a></td>
+      </tr>
+    </table>
+    <footer>
+      <div style="clear: both" class="footer">
+      <span class="footerItem">
+        <a href="../index.html">HOMEPAGE</a>
+      </span>
+      <span class="footerItem">
+        <a href="valorant.html">VALORANT</a>
+      </span>
+      <span class="footerItem">
+        <a href="roblox.html">ROBLOX</a>
+      </span>
+      <span class="footerItem">
+        <a href="minecraft.html">MINECRAFT</a>
+      </span>
+      <span class="footerItem">
+        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a>
+      </span>
+      <span>
+        <p style="display:inline" class="copyright">Copyright &copy  IMI Rufino & CJM Banzon 9-Potassium</p>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
