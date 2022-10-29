@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <!--For the header-->
   <div width=100% style="clear: both">
     <div width=80%>
       <h1 class="websiteTitle">GamesDB</h1>
@@ -38,12 +39,15 @@
       </div>
     </div>
   </div>
+  <!--Line that separates the header from the body-->
   <hr style="clear: both">
 
+  <!--Makes it clear which game's webpage you are on (top left below header)-->
   <div class="gameHeader">
     <p>Arcaea</p>
   </div>
-    
+
+  <!--Paragraphs about game-->
   <div style="clear: both">
     <div class="pSubpage">
           <p class="pItem" style="text-align: center">
@@ -64,6 +68,7 @@
             Scores are determined by the time you hit the notes when they reach the judgement line. <br> 
             For every note, you would get max points if you get a <font class="fontGradient1">◇PURE◇</font>, half points if you get a <font class="fontGradient2">◇FAR◇</font>, and no points if you get a <font class="fontGradient3">◇LOST◇</font>. <br> 
             Below are the score ranges and the grades you receive within that score range. </p>
+    <!--Table showing the score ranges of each corresponding grade-->
     <table id="tableArcaea">
       <tr>
         <th>Grade</th>
@@ -119,6 +124,7 @@
             <font style="color: cyan"> Blue arcs </font>must be hit with your left hand and <font style="color: magenta"> pink arcs </font> must be hit with your right hand. <br> 
             Traces have no contribution on gameplay, they are just there for decoration. <br> 
             Seen below are the 5 types of notes that can be seen in a chart in Arcaea. </p>
+          <!--Different types of notes in Arcaea-->
           <table id="tableArcaea">  
             <tr>
               <th>Floor Note</th>
@@ -138,6 +144,7 @@
           <p class="pItem" style="text-align: center">
           <font class="mainTopics"> HOW TO UNLOCK </font> <br>
           There are a lot of songs that require very specific steps to unlock. Here are links to tutorials on how to unlock these. <br>
+          <!--Links to tutorials to unlock specific songs-->
           <u><a href="https://youtu.be/7y0ns1bGrYI" target="_blank"> Grievous Lady </a> <br>
           <a href="https://youtu.be/jlT_5_SYw8s" target="_blank"> Fracture Ray </a> <br>
           <a href="https://youtu.be/1qYij3_KabU" target="_blank"> Tempestissimo </a> <br>
@@ -172,6 +179,7 @@
           <li>Arcaea can be played with different handstyles, like thumb gameplay, index gameplay, or multifinger gameplay!</li>
           </ul></p>
     </div>
+    <!--Table with important information about game (on right side)-->
     <table class="tableMain">
       <tr>
       <th colspan="2"><img src="../imagesOnWebpage/arcaea.png" alt="Arcaea logo" width="200" height="200"></th>
@@ -206,7 +214,9 @@
       </tr>
     </table>
   </div>
+    <!--More games with webpages header-->
     <h1 style="text-align: center" class="headersInBody">More Games With Webpages:</h1>
+    <!--Table that holds app icons and links in it-->
     <table class="tableHomepage">
       <tr>
         <td style="border:0px; padding:0px 0px 5px;"><a href="valorant.html"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="100px" height="100px"></a></td>
@@ -217,6 +227,7 @@
         <td colspan="3" class="bottomButton" style="border:0px; padding:20px 100px;"><a href="../index.html" target="_blank">Back To Homepage</a></td>
       </tr>
     </table>
+    <!--For the footer-->
     <footer>
       <div style="clear: both" class="footer">
       <span class="footerItem">
