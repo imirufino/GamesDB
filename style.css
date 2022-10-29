@@ -228,31 +228,24 @@
   
     /* all elements with the class="fontGradient1 */
     .fontGradient1 {
-  background: -webkit-linear-gradient(magenta, cyan);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+      background: -webkit-linear-gradient(magenta, cyan);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
      }
 
     /* all elements with the class="fontGradient2 */
     .fontGradient2 {
-  background: -webkit-linear-gradient(chocolate, yellow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+      background: -webkit-linear-gradient(chocolate, yellow);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
      }  
 
     /* all elements with the class="fontGradient3 */
     .fontGradient3 {
-  background: -webkit-linear-gradient(hotpink, red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+      background: -webkit-linear-gradient(hotpink, red);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
      }  
-
-    .valoPictures > img {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-    }
 
     /* all elements with the class="tableValorant" */
     .tableValorant {
