@@ -3,82 +3,90 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="author" content="Inigo Matias Rufino">
+  <meta name="author" content="Inigo Matias Rufino, Cion Jeremiah Banzon">
   <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="revised" content="09-26-2022">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/DB.ico" type="image/ico">
   <title>GamesDB - Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      background-color: #272727;
-      width: 100%;
-    }
-
-    /* all elements with the class "websiteTitle" */
-    .websiteTitle {
-      font-family: Nexa, Helvetica, sans-serif;
-      color: #f9f2f2;
-      font-size: 50px;
-      padding-left: 80px;
-      padding-right: 80px;
-      padding-top: 3px;
-      padding-bottom: 3px;
-      background-color: #ff591e;
-      border: 10px solid #ff591e;
-    }
-
-    .headersInBody {
-      font-family: Nexa, Helvetica, sans-serif;
-      color: #25bfff;
-      font-size: 40px;
-      padding: 40px;
-    }
-
-    /* all h3 elements */
-    h2 {
-      font-family: Nexa, Helvetica, sans-serif;
-      color: #f9f2f2;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-
-      padding: 8px;
-      background-color: #25bfff;
-      background-clip: padding-box;
-
-      border: 22px solid #ff591e;
-    }
-
-    p {
-      font-family: Helvetica, Arial, sans-serif;
-      color: #f9f2f2;
-    }
+    
   </style>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+  <!--for the header-->
   <div width=100% style="clear: both">
-    <h1 class="websiteTitle" style="float: left">GamesDB</h1>
-    <h2 style="float: left"><a href="subpages/valorant.html" style="color: #f9f2f2; text-decoration: none;">VALORANT</a>
-    </h2>
-    <h2 style="float: left"><a href="subpages/roblox.html" style="color: #f9f2f2; text-decoration: none;">ROBLOX</a>
-    </h2>
-    <h2 style="float: left"><a href="subpages/arcaea.html" style="color: #f9f2f2; text-decoration: none;">ARCAEA</a>
-    </h2>
-    <h2 style="float: left"><a href="subpages/minecraft.html"
-        style="color: #f9f2f2; text-decoration: none;">MINECRAFT</a></h2>
-    <h2 style="float: left">MORE (COMING SOON!)</h2>
+    <div width=80%>
+      <h1 class="websiteTitle" style="float: left">GamesDB</h1>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="subpages/valorant.html">VALORANT</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="subpages/roblox.html">ROBLOX</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="subpages/arcaea.html">ARCAEA</a></h2>
+      </div>
+      <div class="topHeaderBox">
+        <h2 class="topHeader"><a href="subpages/minecraft.html">MINECRAFT</a></h2>
+      </div>
+    </div>
+    <div width=20%>
+      <div class="topHeaderBox" id="moreHomepage">
+        <h2 class="topHeader"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a></h2>
+      </div>
+    </div>
   </div>
-
+  <!--line that separates the header from the body-->
+  <hr style="clear: both">
+  <!--Heading and paragraph that talks about the purpose of the website-->
   <div style="clear: both">
     <h1 style="text-align: center" class="headersInBody">Welcome To GamesDB!</h1>
-    <p style="text-align: center">This website is a website that shows important information about different games.<br>
+    <p class="pMain" style="text-align: center">This website is a website that shows important information about different games.<br>
       This includes the platforms you can play it on, the genre of the game and its main objectives.<br>For each game,
       there will also be a section for tips meant for beginners of the game. <br> GamesDB is made to help you decide
-      which game to play next! <br> GamesDB currently supports Valorant, Roblox, Arcaea and Minecraft.
-    </p>
+      which game to play next! <br> GamesDB currently supports Valorant, Roblox, Arcaea and Minecraft. </p>
   </div>
+    <!--Games with webpages header-->
+    <h1 style="text-align: center" class="headersInBody">Games With Webpages:</h1>
+      <table class="tableHomepage">
+        <tr>
+          <td style="border:0px; padding:0px;"><a href="subpages/valorant.html"><img src="../imagesOnWebpage/valorant.png" alt="Valorant logo" width="100px" height="100px"></a></td>
+          <td style="border:0px; padding:0px;"><a href="subpages/roblox.html"><img src="../imagesOnWebpage/roblox.png" alt="Roblox logo" width="100px" height="100px"></a></td>
+          <td style="border:0px; padding:0px;"><a href="subpages/arcaea.html"><img src="../imagesOnWebpage/arcaea.png" alt="Arcaea logo" width="100px" height="100px"></a></td>
+          <td style="border:0px; padding:0px;"><a href="subpages/minecraft.html"><img src="/imagesOnWebpage/minecraft.png" alt="Minecraft logo" width="120px" height="120px"></a></td>
+        </tr>
+        <tr>
+          <td colspan="4" class="bottomButton" style="border:0px; padding:20px 50px;"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">With More Coming Soon!</a></td>
+        </tr>
+      </table>
+    <footer>
+      <div style="clear: both" class="footer">
+      <span class="footerItem">
+        <a href="subpages/valorant.html">VALORANT</a>
+      </span>
+      <span class="footerItem">
+        <a href="subpages/roblox.html">ROBLOX</a>
+      </span>
+      <span class="footerItem">
+        <a href="subpages/arcaea.html">ARCAEA</a>
+      </span>
+      <span class="footerItem">
+        <a href="subpages/minecraft.html">MINECRAFT</a>
+      </span>
+      <span class="footerItem">
+        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">MORE (COMING SOON!)</a>
+      </span>
+      <span>
+        <p style="display:inline" class="copyright">Copyright &copy  IMI Rufino & CJM Banzon 9-Potassium</p>
+      </span>
+    </div>
+  </footer>
 </body>
 
 </html>
